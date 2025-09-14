@@ -4,6 +4,8 @@ body {
 
 }
 
+/* styling for section one (header, links, hero, and image */
+
 .logo {
     font-size: 24px;
     font-weight: bold;
@@ -25,9 +27,10 @@ body {
 .sign-up {
     background-color: #3882F6;
     color: #E5E7EB;
-    max-width: 96px;
+    /* max-width: 96px; */
+    width: fit-content;
     border: none;
-    padding: 8px;
+    padding: 8px 16px;
     border-radius: 8px;
 }
 
@@ -40,7 +43,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 0px 16px;
+    padding-bottom: 0 16px;
 }
 
 .links {
@@ -53,24 +56,65 @@ body {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    max-width: 500px;
+
 }
 
 .intro {
     display: flex;
-    gap: 48px;
-    margin: 80px;
+    margin: 80px auto;
+    justify-content: space-between;
 }
 
 .intro img {
     max-width: 100%;
     height: auto;
-    object-fit: contain;;
+    object-fit: contain;
 }
 
-.header,
-.intro {
-    max-width: 1200px;
+/* should go back and add a div "container" to encompass these; probably add to all sections */
+.container {
+    max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 20px;
+}
+
+/* styling for section two (information section) */
+
+.illustration {
+    width: 180px;
+    height: 180px;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+}
+
+.information {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 48px;
+}
+
+.box {
+    color: #1f2937;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    max-width: 180px;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+}
+
+.four-images {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.two {
+    padding-bottom: 120px;
 }
