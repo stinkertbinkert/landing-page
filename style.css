@@ -116,7 +116,25 @@ body {
 }
 
 .two {
-    padding-bottom: 120px;
+    padding-bottom: 60px;
 }
 
 /* styling for section three (quote) */
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    padding: 80px 120px 0 120px;
+}
+
+.author {
+    color: #1F2937;
+    font-weight: bold;
+    text-align: right;
+    padding: 0 160px 60px 0;
+}
+
+.three {
+    background-color: #E5E7EB;
+}
