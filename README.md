@@ -17,4 +17,5 @@ Learning points
 5. How to nest items in HTML for more efficient CSS styling
 
 Demo
-You can view a live demo here: 
+You can view a live demo here: https://stinkertbinkert.github.io/landing-page/
+
