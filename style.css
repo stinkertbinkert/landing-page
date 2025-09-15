@@ -185,3 +185,10 @@ body {
 }
 
 /* styling for footer */
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 36px 0;
+}
