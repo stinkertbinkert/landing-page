@@ -27,7 +27,6 @@ body {
 .sign-up {
     background-color: #3882F6;
     color: #E5E7EB;
-    /* max-width: 96px; */
     width: fit-content;
     border: none;
     padding: 8px 16px;
@@ -138,3 +137,51 @@ body {
 .three {
     background-color: #E5E7EB;
 }
+
+/* styling for section four (call to action) */
+
+.action {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.product {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.blue {
+    background-color: #3882F6;
+    padding: 50px 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 1100px;
+}
+
+.left-action {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.bottom-sign-up {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    width: fit-content;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 2px solid #E5E7EB;
+}
+
+.four {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* styling for footer */
